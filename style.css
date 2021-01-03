@@ -451,3 +451,25 @@ span:hover {
     display: none;
   }
 }
+@media (max-width: 460px) {
+  .row-empty-low {
+    display: none;
+  }
+  .popRow__title > h1 {
+    font-size: 16px;
+  }
+  .popRow_content {
+    line-height: 1;
+  }
+  .emblema-btn {
+    padding: 0.2rem;
+  }
+  .popUp > * {
+    padding: 5px;
+  }
+  .close > button {
+    margin-right: 40px;
+    margin-top: 40px;
+  }
+}
+
