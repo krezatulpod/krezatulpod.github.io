@@ -28,7 +28,7 @@ function createTable(data) {
             let createLink = document.createElement("a");
             createLink.innerHTML = dataThatINeed[i][objectEntries[a]];
             createLink.setAttribute("onclick", `sendData(this.innerHTML)`);
-            createLink.setAttribute("href", "/static/users.html");
+            createLink.setAttribute("href", "users.html");
 
             return createLink.outerHTML;
           } else {
